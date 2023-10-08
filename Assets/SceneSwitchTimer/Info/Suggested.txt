@@ -1,0 +1,63 @@
+Suggested Tools:
+________________
+
+
+Free Game Engine Core:
+______________________
+
+* Unity Online: https://unity.com/
+* Unity Engine: https://unity.com/download
+* Unity Hub Desktop: https://unity.com/unity-hub
+
+
+Unity Assets Store:
+___________________
+
+* Assets Store: https://assetstore.unity.com/
+
+
+Free Code Environment:
+______________________
+
+
+* Visual Studio: https://visualstudio.microsoft.com/
+
+
+Free Code Repository Management:
+________________________________
+
+
+* GitHub Online: https://github.com/
+* GitHub Desktop: https://desktop.github.com/
+
+
+Free Code Editor(s):
+____________________
+
+
+* Sublime Text: https://www.sublimetext.com/
+* Visual Studio Code: https://code.visualstudio.com/
+
+
+Free Modeling Editors:
+______________________
+
+
+* Blender: https://www.blender.org/
+* MakeHuman: http://www.makehumancommunity.org/
+
+
+Free Graphics Editor:
+_____________________
+
+
+* Gimp: https://www.gimp.org/
+
+
+Other Online Sources:
+_____________________
+
+Scetchfab: https://sketchfab.com/
+
+Mixamo: https://www.mixamo.com/
+
