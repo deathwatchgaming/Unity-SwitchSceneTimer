@@ -41,6 +41,8 @@ Position: X: 0 Y: -100 Z: 0
 
 Width: 230  Height: 90
 
+* note: These will obviously possibly change depending on your canvas and desired location in such, so these are just mentioned for example but primarily you can put it anywhere you desire in your canvas ui. Same goes for other things like font size, color, etc as you can change for you desire and needs.
+
 Text Input: 02:00  
 
 * note: This will change when run so consider this as just a placeholder

@@ -37,9 +37,11 @@ Details:
 
 Rect Trans: top center  
 
-Position: X: 0 Y: -100 Z: 0
+Position: X: 0 Y: -100 Z: 0 
 
 Width: 200  Height: 90
+
+* note: These will obviously possibly change depending on your canvas and desired location in such, so these are just mentioned for example but primarily you can put it anywhere you desire in your canvas ui. Same goes for other things like font size, color, etc as you can change for you desire and needs.
 
 Text: 02:00  
 
