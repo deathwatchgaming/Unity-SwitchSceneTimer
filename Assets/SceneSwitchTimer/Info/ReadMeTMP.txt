@@ -41,7 +41,9 @@ Position: X: 0 Y: -100 Z: 0
 
 Width: 230  Height: 90
 
-Text: 120.00
+Text Input: 02:00  
+
+* note: This will change when run so consider this as just a placeholder
 
 Text Style: Bold
 
