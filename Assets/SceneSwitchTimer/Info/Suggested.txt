@@ -31,6 +31,12 @@ ________________________________
 * GitHub Desktop: https://desktop.github.com/
 
 
+Free Documentation Management:
+________________________________
+
+* GitBook: https://www.gitbook.com/
+
+
 Free Code Editor(s):
 ____________________
 
@@ -45,6 +51,17 @@ ______________________
 
 * Blender: https://www.blender.org/
 * MakeHuman: http://www.makehumancommunity.org/
+* MakeHuman For Blender (MPFB): http://static.makehumancommunity.org/mpfb.html
+
+Also for Blender & worth a look at:
+___________________________________
+
+
+* Buildify - Buildify is a geometry nodes library for easy building creation: https://paveloliva.gumroad.com/l/buildify
+
+* Blosm for Blender - Google 3D cities, OpenStreetMap, terrain: https://prochitecture.gumroad.com/l/blender-osm
+
+* BlenderGIS - Blender addons to make the bridge between Blender and geographic data: https://github.com/domlysz/BlenderGIS
 
 
 Free Graphics Editor:
