@@ -18,7 +18,13 @@ public class SceneSwitchTimerTMP : MonoBehaviour
     public bool timerIsRunning = false;
 
     // Public - Text - Time Text
+
+    // Specific within a UI.Canvas
+    //public TextMeshProUGUI timeText;
+
+    // Generic base/parent class for two types
     public TMP_Text timeText;
+
 
     // Private - Void - Start
     private void Start()
