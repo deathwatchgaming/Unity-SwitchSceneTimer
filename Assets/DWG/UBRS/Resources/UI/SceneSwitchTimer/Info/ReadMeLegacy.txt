@@ -34,7 +34,7 @@ Scenes/Demo Switched    1
 
 In the Demo Start Scene:
 
-1) Create: UI -> Canvas (unless you alread have a UI Canvas)
+1) Create: UI -> Canvas (unless you already have a UI Canvas)
 
 2) Create inside UI Canvas as child: -> Text (legacy)
 
@@ -128,3 +128,17 @@ Final Note:
 
 If you do not desire the debug logs display then simply comment out any and or
 all of those specifically in the script, no biggie. :)
+
+
+Another quick note: Say for simple example that you want to use this timer to not only switch the scene but lets say for example you wanted to take your FPSController to that switched scene rather than say have a different one setup in that scene. Well, you would simply add something like "DontDestroyOnLoad(this);" to your Awake method in your FPSController script just for one example to accomplish such easily and quickly.
+
+Ie:
+
+// Awake Method
+public void Awake()
+{
+  // Do not destroy this Game Object
+  DontDestroyOnLoad(this);
+}
+
+
