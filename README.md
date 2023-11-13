@@ -11,12 +11,12 @@ Simple manual setup details can be found in the DIR: "Info" via either ReadMeLeg
 
  Text Legacy ReadMe:
 
- https://github.com/deathwatchgaming/Unity-SwitchSceneTimer/blob/main/Assets/DWG/Resources/UI/SceneSwitchTimer/Info/ReadMeLegacy.txt
+ https://github.com/deathwatchgaming/Unity-SwitchSceneTimer/blob/main/Assets/DWG/UBRS/Resources/UI/SceneSwitchTimer/Info/ReadMeLegacy.txt
 
 
  Text Mesh Pro ReadMe:
 
- https://github.com/deathwatchgaming/Unity-SwitchSceneTimer/blob/main/Assets/DWG/Resources/UI/SceneSwitchTimer/Info/ReadMeTMP.txt
+ https://github.com/deathwatchgaming/Unity-SwitchSceneTimer/blob/main/Assets/DWG/UBRS/Resources/UI/SceneSwitchTimer/Info/ReadMeTMP.txt
 
 
 
@@ -46,4 +46,4 @@ Setup Info:
  Suggestions:
 --------------
 
- https://github.com/deathwatchgaming/Unity-SwitchSceneTimer/blob/main/Assets/DWG/Resources/UI/SceneSwitchTimer/Info/Suggested.txt
+ https://github.com/deathwatchgaming/Unity-SwitchSceneTimer/blob/main/Assets/DWG/UBRS/Resources/UI/SceneSwitchTimer/Info/Suggested.txt

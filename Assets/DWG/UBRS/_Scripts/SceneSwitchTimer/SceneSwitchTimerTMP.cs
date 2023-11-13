@@ -1,14 +1,24 @@
-// Using - Engine - UI - Scene Management
+/*
+*
+*  Name: DWG Scene Switch Timer (Text Mesh Pro)
+*  File: SceneSwitchTimerTMP.cs
+*  Author: Deathwatch Gaming
+*  License: MIT
+*
+*/
+
+// Using - Engine - UI - Scene Management - TMPro
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
-// Namespace - DWG.SceneSwitchTimerLegacy
-namespace DWG.SceneSwitchTimerLegacy
+// Namespace - DWG.UBRS.SceneSwitchTimerTMP
+namespace DWG.UBRS.SceneSwitchTimerTMP
 {
 
-    // Public - Class - SceneSwitchTimerLegacy
-    public class SceneSwitchTimerLegacy : MonoBehaviour
+    // Public - Class - SceneSwitchTimerTMP
+    public class SceneSwitchTimerTMP : MonoBehaviour
     {
 
         // Public - String - SceneToLoad
@@ -23,8 +33,13 @@ namespace DWG.SceneSwitchTimerLegacy
         // Public - Bool - TimerEnabled = No / False
         public bool timerEnabled = false;
 
-        // Public - Text - TimeText
-        public Text timeText;
+        // Specific within a UI.Canvas
+        // Public - TextMeshProUGUI - TimeText
+        //public TextMeshProUGUI timeText;
+
+        // Generic base/parent class for two types 
+        // Public - TMP_Text - TimeText       
+        public TMP_Text timeText;
 
         // Void - Update
         void Update()
@@ -37,11 +52,11 @@ namespace DWG.SceneSwitchTimerLegacy
                 // timeText - gameObject - Set Active - True
                 timeText.gameObject.SetActive(true);
 
-                // GetComponent - SceneSwitchTimerLegacy  - Enabled - True
-                GetComponent<SceneSwitchTimerLegacy>().enabled = true;
+                // GetComponent - SceneSwitchTimerTMP  - Enabled - True
+                GetComponent<SceneSwitchTimerTMP>().enabled = true;
 
                 // Debug Log - Timer Is Enabled
-                Debug.Log("The (Legacy) Timer is enabled!");
+                Debug.Log("The (TMP) Timer is enabled!");
 
                 // If TimerIsRunning - Equals To True
                 if (timerIsRunning == true)
@@ -59,7 +74,7 @@ namespace DWG.SceneSwitchTimerLegacy
 
 
                         // Debug Log - Timer running
-                        Debug.Log("The (Legacy) Timer is running!");
+                        Debug.Log("The (TMP) Timer is running!");
 
                     } // Close - If TimeRemaining - Is Greater Than 0
 
@@ -98,7 +113,7 @@ namespace DWG.SceneSwitchTimerLegacy
                     timerIsRunning = false;
 
                     // Debug Log - Timer Is Not Running
-                    Debug.Log("The (Legacy) Timer is not running!");
+                    Debug.Log("The (TMP) Timer is not running!");
 
                 } // Close - If TimerIsRunning - Equals To False
 
@@ -111,11 +126,11 @@ namespace DWG.SceneSwitchTimerLegacy
                 // timeText - gameObject - Set Active - False
                 timeText.gameObject.SetActive(false);
 
-                // GetComponent - SceneSwitchTimerLegacy  - Enabled - false
-                GetComponent<SceneSwitchTimerLegacy>().enabled = false;
+                // GetComponent - SceneSwitchTimerTMP  - Enabled - false
+                GetComponent<SceneSwitchTimerTMP>().enabled = false;
 
                 // Debug Log - Timer Is Not Enabled
-                Debug.Log("The (Legacy) Timer is not enabled!");
+                Debug.Log("The (TMP) Timer is not enabled!");
 
                 // Timer Is Not Running
                 timerIsRunning = false;
@@ -142,6 +157,6 @@ namespace DWG.SceneSwitchTimerLegacy
 
         } // Close - Void - Display Time - Float - Time To Display
 
-    } // Close - Public - Class - SceneSwitchTimerLegacy
+    } // Close - Public - Class - SceneSwitchTimerTMP
 
-} // Close - Namespace - DWG.SceneSwitchTimerLegacy
+} // Close - Namespace - DWG.UBRS.SceneSwitchTimerTMP
