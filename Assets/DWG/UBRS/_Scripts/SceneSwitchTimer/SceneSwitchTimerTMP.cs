@@ -16,11 +16,9 @@ using TMPro;
 // Namespace - DWG.UBRS.SceneSwitchTimerTMP
 namespace DWG.UBRS.SceneSwitchTimerTMP
 {
-
     // Public - Class - SceneSwitchTimerTMP
     public class SceneSwitchTimerTMP : MonoBehaviour
     {
-
         // Public - String - SceneToLoad
         public string SceneToLoad;
 
@@ -44,11 +42,9 @@ namespace DWG.UBRS.SceneSwitchTimerTMP
         // Void - Update
         void Update()
         {
-
             // If TimerEnabled - Equals To True
             if (timerEnabled == true)
             {
-
                 // timeText - gameObject - Set Active - True
                 timeText.gameObject.SetActive(true);
 
@@ -61,17 +57,14 @@ namespace DWG.UBRS.SceneSwitchTimerTMP
                 // If TimerIsRunning - Equals To True
                 if (timerIsRunning == true)
                 {
-
                     // If TimeRemaining - Is Greater Than 0
                     if (timeRemaining > 0)
                     {
-
                         // TimeRemaining
                         timeRemaining -= Time.deltaTime;
 
                         // DisplayTime - Time Remaining
                         DisplayTime(timeRemaining);
-
 
                         // Debug Log - Timer running
                         Debug.Log("The (TMP) Timer is running!");
@@ -81,7 +74,6 @@ namespace DWG.UBRS.SceneSwitchTimerTMP
                     // Else  
                     else
                     {
-
                         // Time - Remaining Is Equal To 0
                         timeRemaining = 0;
 
@@ -108,7 +100,6 @@ namespace DWG.UBRS.SceneSwitchTimerTMP
                 // Else If TimerIsRunning - Equals To False
                 else if (timerIsRunning == false)
                 {
-
                     // Timer Is Not Running
                     timerIsRunning = false;
 
@@ -122,7 +113,6 @@ namespace DWG.UBRS.SceneSwitchTimerTMP
             // Else If TimerEnabled - Equals To False
             else if (timerEnabled == false)
             {
-
                 // timeText - gameObject - Set Active - False
                 timeText.gameObject.SetActive(false);
 
@@ -142,7 +132,6 @@ namespace DWG.UBRS.SceneSwitchTimerTMP
         // Void - Display Time - Float - Time To Display
         void DisplayTime(float timeToDisplay)
         {
-
             // Time To Display
             timeToDisplay += 1;
 

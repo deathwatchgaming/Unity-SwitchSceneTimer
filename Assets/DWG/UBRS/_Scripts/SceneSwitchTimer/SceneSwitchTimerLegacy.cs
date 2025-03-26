@@ -15,11 +15,9 @@ using UnityEngine.SceneManagement;
 // Namespace - DWG.UBRS.SceneSwitchTimerLegacy
 namespace DWG.UBRS.SceneSwitchTimerLegacy
 {
-
     // Public - Class - SceneSwitchTimerLegacy
     public class SceneSwitchTimerLegacy : MonoBehaviour
     {
-
         // Public - String - SceneToLoad
         public string SceneToLoad;
 
@@ -38,11 +36,9 @@ namespace DWG.UBRS.SceneSwitchTimerLegacy
         // Void - Update
         void Update()
         {
-
             // If TimerEnabled - Equals To True
             if (timerEnabled == true)
             {
-
                 // timeText - gameObject - Set Active - True
                 timeText.gameObject.SetActive(true);
 
@@ -55,17 +51,14 @@ namespace DWG.UBRS.SceneSwitchTimerLegacy
                 // If TimerIsRunning - Equals To True
                 if (timerIsRunning == true)
                 {
-
                     // If TimeRemaining - Is Greater Than 0
                     if (timeRemaining > 0)
                     {
-
                         // TimeRemaining
                         timeRemaining -= Time.deltaTime;
 
                         // DisplayTime - Time Remaining
                         DisplayTime(timeRemaining);
-
 
                         // Debug Log - Timer running
                         Debug.Log("The (Legacy) Timer is running!");
@@ -75,7 +68,6 @@ namespace DWG.UBRS.SceneSwitchTimerLegacy
                     // Else  
                     else
                     {
-
                         // Time - Remaining Is Equal To 0
                         timeRemaining = 0;
 
@@ -102,7 +94,6 @@ namespace DWG.UBRS.SceneSwitchTimerLegacy
                 // Else If TimerIsRunning - Equals To False
                 else if (timerIsRunning == false)
                 {
-
                     // Timer Is Not Running
                     timerIsRunning = false;
 
@@ -116,7 +107,6 @@ namespace DWG.UBRS.SceneSwitchTimerLegacy
             // Else If TimerEnabled - Equals To False
             else if (timerEnabled == false)
             {
-
                 // timeText - gameObject - Set Active - False
                 timeText.gameObject.SetActive(false);
 
@@ -136,7 +126,6 @@ namespace DWG.UBRS.SceneSwitchTimerLegacy
         // Void - Display Time - Float - Time To Display
         void DisplayTime(float timeToDisplay)
         {
-
             // Time To Display
             timeToDisplay += 1;
 
